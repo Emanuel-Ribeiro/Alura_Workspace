@@ -1,0 +1,56 @@
+.cabecalho {
+    color: var(--branco);
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem; /* em é uma tag que pega o tamanho relativo ao font size da tag mae  */
+    padding-bottom: .75rem; /* rem é uma tag que pega o tamanho relativo ao font size do maior nivel hierarquico de todos (HTML) */
+
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+
+    position: absolute;
+}
+
+.cabecalho__logo {
+    margin-bottom: 1rem;
+}
+
+.cabecalho__navegacao {
+    text-align: center;
+}
+
+.cabecalho__link {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
+
+@media screen and (min-width: 1024)
+{
+    .cabecalho
+    {
+        border: none;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .cabecalho 
+    {
+        border: none;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

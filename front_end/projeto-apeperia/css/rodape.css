@@ -1,0 +1,36 @@
+.rodape 
+{
+  display: flex;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  background-color: var(--bg-rodape);
+}
+
+.rodape__social 
+{
+  display: flex;
+}
+
+.rodape__midia 
+{
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 2rem 1rem;
+}
+
+.rodape__navegacao 
+{
+  line-height: 3;
+  text-align: center;
+  color: var(--branco);
+}
+
+
+.rodape__link 
+{
+  display: inline-block;
+  margin: 0 .5rem .7rem;
+}

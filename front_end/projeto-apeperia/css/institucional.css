@@ -1,0 +1,147 @@
+.institucional 
+{
+  display: flex;
+  padding-top: 2rem;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  color: var(--fonte-cinza);
+}
+
+.institucional__titulo 
+{
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: var(--cinza-escuro);
+  font-family: var(--montserrat);
+}
+
+.institucional__descricao 
+{
+  margin-bottom: 2rem;
+}
+
+.institucional__endereco 
+{
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.institucional__contato 
+{
+  line-height: 1.8;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.institucional__contato-telefone 
+{
+  line-height: normal;
+}
+
+.institucional__contato-email 
+{
+  display: block;
+  color: var(--fonte-link);
+  text-decoration: underline;
+}
+
+.institucional__video 
+{
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) 
+{
+  .institucional__contato-email
+  {
+    display: inline-block;
+  }  
+}
+
+@media screen and (min-width: 1024px) 
+{
+  .institucional__conteudo 
+  {
+      width: 100%;
+      display: flex;
+      text-align: left;
+      justify-content: space-between;
+  }
+
+  .institucional__video 
+  {
+    width: 375px;
+    align-self: flex-end;
+  }
+
+  .institucional__contato-email 
+  {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) 
+{
+  .planos__cartoes 
+  {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .cartao 
+  {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) 
+{
+  .rodape 
+  {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .rodape__navegacao 
+  {
+    text-align: left;
+    min-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) 
+{
+  .sobre 
+  {
+    display: flex;
+  }
+
+  .sobre__conteudo 
+  {
+    margin-right: 3rem;
+  }
+
+  .sobre__titulo 
+  {
+    text-align: left;
+  }
+
+  .sobre__texto--divisao 
+  {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--cinza-medio);
+  }
+
+  .sobre__imagem 
+  {
+    display: block;
+  }
+}
